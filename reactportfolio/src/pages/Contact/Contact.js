@@ -1,38 +1,42 @@
 import React from 'react'
+import {
+    Button,
+    Form,
+    FormGroup,
+    Label,
+    Input,
+    
+    Container,
+    Row,
+    Col
+  } from 'reactstrap'
 
 const Contact = () => {
-    return (
-        <>
-        <h1>This is the home page</h1>
-        <form> 
-                <section class="form-group">
-                  <div class="col-auto">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                      placeholder="name@example.com">
-                  </section>
-                  <section class="form-group">
-                    <div class="col-auto">
-                      <label for="exampleFormControlSelect1">Name</label>
-                      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
-                      </select>
-                    </section>
-                    <section class="form-group">
-                      <div class="col-auto">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"></textarea>
-                      </section>
-                      <section class="form-group">
-                          <div class="col-auto">
-                        <input class="btn btn-primary" type="submit" value="Submit">
-                      </section>
-                  
+  return (
+    <Container>
+      <Row>
+      
+        <Col xs="12">
+          <Form>
+            <FormGroup>
+              <Label for="name">Name</Label>
+              <Input type="text" name="name" id="name" />
+            </FormGroup>
+            <FormGroup>
+              <Label for="exampleEmail">Email</Label>
+              <Input type="email" name="email" id="exampleEmail" />
+            </FormGroup>
+            <FormGroup>
+              <Label for="exampleMessage">Message</Label>
+              <Input type="message" name="message" id="exampleMessage" />
+            </FormGroup>
+            <Button>Submit</Button>
+          </Form>
+        </Col>
+      </Row>
+    </Container>
 
-                      </div>
-                    </div>
-              </form>
-        </>
-    )
+  )
 }
 
-export default Contact 
+export default Contact
