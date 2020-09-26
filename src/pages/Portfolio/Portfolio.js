@@ -3,25 +3,29 @@ import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button
 } from 'reactstrap';
+import Pokemon from '../../assets/images/pokemon.png'
+import lifetrack from '../../assets/images/lifetrack.jpg'
+import image3 from '../../assets/images/image.png'
+
+
 
 
 const Portfolio = (props) => {
   return (
     <div>
-      
       <Card>
-        <CardImg top width="100%" src="/assets/images/pokemon.png" alt="" />
+        <CardImg top width="100%" src={Pokemon} alt="pokemon pic" />
         <CardBody>
           <CardTitle>Pokemon</CardTitle>
           <CardSubtitle>Project 1</CardSubtitle>
           <CardText>We made a Pokemon site with the database of
               pokemons and p-cards!</CardText>
             <a href="https://kalynbsimms.github.io/pokeProject/" class="btn btn-primary">Go somewhere</a>
-            <a href=" https://github.com/Kalynbsimms/pokeProject.git" class="btn btn-primary">GitHub</a>
+            <a href=" https://github.com/Kalynbsimms/pokeProject.git" class="btn btn-primary">GitHub Repo</a>
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="" />
+        <CardImg top width="100%" src={lifetrack} alt="lifetrack" />
         <CardBody>
           <CardTitle>Lifetrack</CardTitle>
           <CardSubtitle>Project 2</CardSubtitle>
@@ -31,7 +35,7 @@ const Portfolio = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="" />
+        <CardImg top width="100%" src={image3} alt="dungeon" />
         <CardBody>
           <CardTitle>Dungeon Sheets</CardTitle>
           <CardSubtitle>Project 3</CardSubtitle>
@@ -40,6 +44,7 @@ const Portfolio = (props) => {
           <a href="" class="btn btn-primary">GitHub</a>
         </CardBody>
       </Card>
+      
     </div>
   
  
