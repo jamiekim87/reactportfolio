@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
-import Footer from './components/Footer'
 import {
   Collapse,
   Navbar,
@@ -49,7 +48,6 @@ const App = () => {
           <Route exact path="/" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/portfolio" component={Portfolio} />
-          <Route path="/footer" component={Footer} />
         </Switch>
       </div>
 
