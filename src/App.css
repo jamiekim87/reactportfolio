@@ -1,7 +1,10 @@
 .link {
-  color: black;
-}
-.link:hover {
-  text-decoration: none;
-  color: black;
+    color: black;
+  }
+  .link:hover {
+    text-decoration: none;
+    color: black;
+  }
+.backgroung-image {
+  
 }

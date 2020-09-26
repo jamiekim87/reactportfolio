@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Contact from './pages/Contact'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
-import Contact from './pages/Contact'
 import {
   Collapse,
   Navbar,
@@ -50,8 +50,19 @@ const App = () => {
           <Route path="/portfolio" component={Portfolio} /> 
         </Switch>
       </div>
+
+      <hr></hr>
+      <footer class="footer">
+        <p>
+          &copy; 2020 Jamie, Inc.
+        </p>
+      </footer>
+
     </Router>
+
   )
 }
+
+
 
 export default App

@@ -1,14 +1,15 @@
 {
-  "name": "reactportfolio",
+  "name": "react004",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jamiekim87.github.io/reactportfolio",
+  "homepage": "http://jamiekim87.github.io/react004",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "babel": "^6.23.0",
+    "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
+    "mdbreact": "^4.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
