@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
@@ -44,7 +43,6 @@ const App = () => {
                 <NavLink><Link className="link" to="/contact">Contact</Link></NavLink>
               </NavItem>  
             </Nav>
-            
           </Collapse>
         </Navbar>
         <Switch>
