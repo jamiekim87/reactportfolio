@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,MACE,UACF,CACA,YACE,oBAAqB,CACrB,UACF","file":"main.81a938b1.chunk.css","sourcesContent":[".link {\n  color: black;\n}\n.link:hover {\n  text-decoration: none;\n  color: black;\n}"]}
