@@ -40,42 +40,24 @@ const App = () => {
               </NavItem>
               <NavItem>
                 <NavLink><Link className="link" to="/contact">Contact</Link></NavLink>
-              </NavItem>  
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
         <Switch>
           <Route exact path="/" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/portfolio" component={Portfolio} /> 
+          <Route path="/portfolio" component={Portfolio} />
         </Switch>
       </div>
 
       <hr></hr>
+
+      
       <footer class="footer">
         <p>
           &copy; 2020 Jamie, Inc.
         </p>
-        <div class="row">
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
       </footer>
 
     </Router>
