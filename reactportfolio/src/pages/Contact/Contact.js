@@ -5,7 +5,7 @@ import {
     FormGroup,
     Label,
     Input,
-    
+    FormText,
     Container,
     Row,
     Col
@@ -15,7 +15,6 @@ const Contact = () => {
   return (
     <Container>
       <Row>
-      
         <Col xs="12">
           <Form>
             <FormGroup>

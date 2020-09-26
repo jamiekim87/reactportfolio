@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <>
-        <h1>This is About Me page.</h1>
+        <h1>This is About Me page</h1>
 
         <h2>Entering college about eight years ago, my parents told me that this is the time of your life where you decide
           who you will become. Quite a scary thought for someone that liked little bits and pieces of each subject I

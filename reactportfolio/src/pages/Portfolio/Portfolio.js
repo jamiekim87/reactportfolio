@@ -1,41 +1,41 @@
- 
-import React from 'react'
+import React from 'react';
 import {
-  Card, Button, CardImg, CardTitle, CardText, CardDeck,
-  CardSubtitle, CardBody
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 
 const Portfolio = (props) => {
   return (
-    <CardDeck>
+    <div>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="./assets/images/pokemon.png" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Sensify</CardTitle>
-          <CardSubtitle></CardSubtitle>
-          <CardText>JavaScript</CardText>
-          <a href="https://daniellehillman.github.io/Sensify/"><Button>Check out my project!</Button></a>
+          <CardTitle>Pokemon</CardTitle>
+          <CardSubtitle>Project 1</CardSubtitle>
+          <CardText>We made a Pokemon site with the database of
+              pokemons and p-cards!</CardText>
+          <Button>Button</Button>
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
         <CardBody>
-          <CardTitle>LifeTrack</CardTitle>
-          <CardSubtitle></CardSubtitle>
-          <CardText>JavaScript/Node.js</CardText>
-          <a href=" https://afternoon-stream-93666.herokuapp.com/diary.html"><Button>Check out my project!</Button></a>
+          <CardTitle>Lifetrack</CardTitle>
+          <CardSubtitle>Project 2</CardSubtitle>
+          <CardText>We created a life track application that tracks our to do list, fitness, and diaries.</CardText>
+          <Button>Button</Button>
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
         <CardBody>
           <CardTitle>Dungeon Sheets</CardTitle>
-          <CardSubtitle></CardSubtitle>
-          <CardText>React.JS/MySql</CardText>
-          <Button>Check out my project</Button>
+          <CardSubtitle>Project 3</CardSubtitle>
+          <CardText>We made Dungeon sheets with log in site for users and character genertor, dice roll, and character sheet.</CardText>
+          <Button>Button</Button>
         </CardBody>
       </Card>
-    </CardDeck>
+    </div>
   );
 };
 

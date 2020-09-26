@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
-import Login from './pages/Login'
+import Contact from './pages/Contact'
+import About from './pages/About'
+import Portfolio from './pages/Portfolio'
+
 import {
   Collapse,
   Navbar,
@@ -32,20 +35,27 @@ const App = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink><Link className="link" to="/">Home</Link></NavLink>
+                <NavLink><Link className="link" to="/">About</Link></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink><Link className="link" to="/login">Login</Link></NavLink>
+                <NavLink><Link className="link" to="/portfolio">Portfolio</Link></NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink><Link className="link" to="/contact">Contact</Link></NavLink>
+              </NavItem>  
             </Nav>
+            
           </Collapse>
         </Navbar>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/login" component={Login} />
-      </Switch>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/portfolio" component={Portfolio} /> 
+        </Switch>
       </div>
     </Router>
+
+
   )
 }
 
