@@ -3,7 +3,7 @@ import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button
 } from 'reactstrap';
-import Pokemon from '../../assets/images/pokemon1.png'
+import Pokemon from '../../assets/images/pokemon3.jpg'
 import lifetrack from '../../assets/images/lifetrack.jpg'
 import image1 from '../../assets/images/image1.jpg'
 import fitnesstracker from '../../assets/images/fitnesstracker.png'
@@ -42,7 +42,7 @@ const Portfolio = (props) => {
           <CardSubtitle>Project 3</CardSubtitle>
           <CardText>We made Dungeon sheets with log in site for users and character genertor, dice roll, and character sheet.</CardText>
           <a href="" class="btn btn-primary">Go somewhere</a>
-          <a href="" class="btn btn-primary">GitHub Repo</a>
+          <a href="" class="btn btn-primary">GitHub</a>
         </CardBody>
       </Card>
       <Card>
@@ -52,7 +52,7 @@ const Portfolio = (props) => {
           <CardSubtitle>Coursework-1</CardSubtitle>
           <CardText>This is a workout tracker application that is able to view create and track daily workouts. </CardText>
           <a href="https://damp-shore-84611.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
-          <a href="https://github.com/jamiekim87/workoutTracker.git" class="btn btn-primary">GitHub Repo</a>
+          <a href="https://github.com/jamiekim87/workoutTracker.git" class="btn btn-primary">GitHub</a>
         </CardBody>
       </Card>
       <Card>
@@ -62,7 +62,7 @@ const Portfolio = (props) => {
           <CardSubtitle>Coursework-2</CardSubtitle>
           <CardText>This is Budget Tracker applicaiton that add expenses and depostis to their budget with or without a connection. </CardText>
           <a href="https://ancient-ocean-50533.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
-          <a href="https://github.com/jamiekim87/budget_tracker.git" class="btn btn-primary">GitHub Repo</a>
+          <a href="https://github.com/jamiekim87/budget_tracker.git" class="btn btn-primary">GitHub</a>
         </CardBody>
       </Card>
       <Card>
@@ -72,9 +72,11 @@ const Portfolio = (props) => {
           <CardSubtitle>Coursework-3</CardSubtitle>
           <CardText>This is employee directory application with React that able to view my entire directory at once so that I have quck access to their information.   </CardText>
           <a href="https://jamiekim87.github.io/employee/" class="btn btn-primary">Go somewhere</a>
-          <a href="https://github.com/jamiekim87/employee_directory.git" class="btn btn-primary">GitHub Repo</a>
+          <a href="https://github.com/jamiekim87/employee_directory.git" class="btn btn-primary">GitHub</a>
         </CardBody>
       </Card>
+      
+    
       
     </div>
   

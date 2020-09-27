@@ -53,11 +53,13 @@ const App = () => {
 
       <hr></hr>
 
-      
+
       <footer class="footer">
-      <p className="col-sm center">
+        <div className="col-sm center">
+          <p>
             &copy;{new Date().getFullYear()} Jamie Inc. | All rights reserved | Terms of service | Privacy
           </p>
+        </div>
       </footer>
 
     </Router>

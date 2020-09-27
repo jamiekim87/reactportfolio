@@ -2,3 +2,8 @@ img.resize {
     width: 200x;
     height: auto;
   }
+
+  .Pokemon {
+    height: 200px;
+    width: 100px;
+  }
