@@ -62,7 +62,7 @@ const Portfolio = (props) => {
           <CardSubtitle>Coursework-2</CardSubtitle>
           <CardText>This is Budget Tracker applicaiton that add expenses and depostis to their budget with or without a connection. </CardText>
           <a href="https://ancient-ocean-50533.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
-          <a href="https://github.com/jamiekim87/budget_tracker.git" class="btn btn-primary">GitHub</a>
+          <a href="https://github.com/jamiekim87/budget_tracker.git" class="btn btn-primary">GitHub Repo</a>
         </CardBody>
       </Card>
       <Card>
@@ -72,11 +72,9 @@ const Portfolio = (props) => {
           <CardSubtitle>Coursework-3</CardSubtitle>
           <CardText>This is employee directory application with React that able to view my entire directory at once so that I have quck access to their information.   </CardText>
           <a href="https://jamiekim87.github.io/employee/" class="btn btn-primary">Go somewhere</a>
-          <a href="https://github.com/jamiekim87/employee_directory.git" class="btn btn-primary">GitHub</a>
+          <a href="https://github.com/jamiekim87/employee_directory.git" class="btn btn-primary">GitHub Repo</a>
         </CardBody>
       </Card>
-      
-    
       
     </div>
   
