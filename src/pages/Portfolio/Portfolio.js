@@ -15,7 +15,7 @@ const Portfolio = (props) => {
   return (
     <div>
       <Card>
-        <CardImg top width="100%" src={Pokemon} alt="pokemon pic" />
+        <CardImg top width="100%" src={Pokemon} alt="pokemon pic" width="460" heignt="345"/>
         <CardBody>
           <CardTitle>Pokemon</CardTitle>
           <CardSubtitle>Project 1</CardSubtitle>
