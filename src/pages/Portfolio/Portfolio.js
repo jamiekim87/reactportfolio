@@ -32,7 +32,7 @@ const Portfolio = (props) => {
           <CardSubtitle>Project 2</CardSubtitle>
           <CardText>We created a life track application that tracks our to do list, fitness, and diaries.</CardText>
           <a href="https://afternoon-stream-93666.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
-          <a href="https://github.com/jamiekim87/lifetrack.git" class="btn btn-primary">GitHub</a>
+          <a href="https://github.com/jamiekim87/lifetrack.git" class="btn btn-primary">GitHub Repo</a>
         </CardBody>
       </Card>
       <Card>
@@ -42,7 +42,7 @@ const Portfolio = (props) => {
           <CardSubtitle>Project 3</CardSubtitle>
           <CardText>We made Dungeon sheets with log in site for users and character genertor, dice roll, and character sheet.</CardText>
           <a href="" class="btn btn-primary">Go somewhere</a>
-          <a href="" class="btn btn-primary">GitHub</a>
+          <a href="" class="btn btn-primary">GitHub Repo</a>
         </CardBody>
       </Card>
       <Card>
@@ -52,7 +52,7 @@ const Portfolio = (props) => {
           <CardSubtitle>Coursework-1</CardSubtitle>
           <CardText>This is a workout tracker application that is able to view create and track daily workouts. </CardText>
           <a href="https://damp-shore-84611.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
-          <a href="https://github.com/jamiekim87/workoutTracker.git" class="btn btn-primary">GitHub</a>
+          <a href="https://github.com/jamiekim87/workoutTracker.git" class="btn btn-primary">GitHub Repo</a>
         </CardBody>
       </Card>
       <Card>
