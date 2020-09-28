@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae9eaaae9c0c1e3c67d07e8f1c51862b",
+    "revision": "9ee0f5209615269c6d4985a8054fa37f",
     "url": "/reactportfolio/index.html"
   },
   {
-    "revision": "738ac9c2e5853e4885fb",
+    "revision": "e4ff4785d0a98a6c8e82",
     "url": "/reactportfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "4e9c456feddc09e2478a",
-    "url": "/reactportfolio/static/css/main.765d9001.chunk.css"
+    "revision": "306628fd13a70af4c501",
+    "url": "/reactportfolio/static/css/main.ed13a0b2.chunk.css"
   },
   {
-    "revision": "738ac9c2e5853e4885fb",
-    "url": "/reactportfolio/static/js/2.f64a1503.chunk.js"
+    "revision": "e4ff4785d0a98a6c8e82",
+    "url": "/reactportfolio/static/js/2.07097c6f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/reactportfolio/static/js/2.f64a1503.chunk.js.LICENSE.txt"
+    "url": "/reactportfolio/static/js/2.07097c6f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e9c456feddc09e2478a",
-    "url": "/reactportfolio/static/js/main.d2644df7.chunk.js"
+    "revision": "306628fd13a70af4c501",
+    "url": "/reactportfolio/static/js/main.b7af55a6.chunk.js"
   },
   {
     "revision": "ccc63777df2cb755b429",
@@ -48,11 +48,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactportfolio/static/media/image1.3a438873.jpg"
   },
   {
+    "revision": "070f49c34b8682fd2b66d024c0a035a5",
+    "url": "/reactportfolio/static/media/img1.070f49c3.png"
+  },
+  {
     "revision": "6b3eb72a157d5f81c323b43bd12a6aef",
     "url": "/reactportfolio/static/media/lifetrack.6b3eb72a.jpg"
   },
   {
-    "revision": "f1cd9079a44206a2266cb13614a5bb95",
-    "url": "/reactportfolio/static/media/pokemon1.f1cd9079.png"
+    "revision": "e91dd5cf79815109fff67ccae533232b",
+    "url": "/reactportfolio/static/media/pokemon3.e91dd5cf.jpg"
   }
 ]);
