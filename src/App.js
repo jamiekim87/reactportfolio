@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
+import Home from './pages/Home'
+import Login from './pages/Login'
 import {
   Collapse,
   Navbar,
@@ -32,8 +34,14 @@ const App = () => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
+            <NavItem>
+                <NavLink><Link className="link" to="/">Home</Link></NavLink>
+              </NavItem>
               <NavItem>
-                <NavLink><Link className="link" to="/">About</Link></NavLink>
+                <NavLink><Link className="link" to="/login">Login</Link></NavLink>
+              </NavItem>
+              <NavItem> 
+                <NavLink><Link className="link" to="/about">About</Link></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink><Link className="link" to="/portfolio">Portfolio</Link></NavLink>
@@ -45,7 +53,9 @@ const App = () => {
           </Collapse>
         </Navbar>
         <Switch>
-          <Route exact path="/" component={About} />
+          <Route exact path="/" component={Home} />
+          <Route path="/login" component={Login} />
+          <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/portfolio" component={Portfolio} />
         </Switch>

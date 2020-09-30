@@ -32,7 +32,7 @@ const Portfolio = (props) => {
           <CardSubtitle>Project 2</CardSubtitle>
           <CardText>We created a life track application that tracks our to do list, fitness, and diaries.</CardText>
           <a href="https://afternoon-stream-93666.herokuapp.com/" class="btn btn-primary">Go somewhere</a>
-          <a href="https://github.com/jamiekim87/lifetrack.git" class="btn btn-primary">GitHub Repo</a>
+          <a href="https://github.com/DaniBoie/sequelizeActivity" class="btn btn-primary">GitHub Repo</a>
         </CardBody>
       </Card>
       <Card>
