@@ -32,7 +32,7 @@ const App = () => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
-            <NavItem> 
+            <NavItem>
                 <NavLink><Link className="link" to="/">About</Link></NavLink>
               </NavItem>
               <NavItem>

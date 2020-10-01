@@ -2,7 +2,6 @@ import React from 'react'
 import { Jumbotron, Button } from 'reactstrap';
 import Background from '../../assets/images/bg.png';
 import image from '../../assets/images/img1.png';
-import { Toast, ToastBody, ToastHeader } from 'reactstrap';
 
 
 const About = (props) => {
@@ -10,7 +9,6 @@ const About = (props) => {
     <>
       <div>
       <div className="p-3 bg-info my-2 rounded">
-      
       </div>
         <Jumbotron>
           <img src={Background} />
