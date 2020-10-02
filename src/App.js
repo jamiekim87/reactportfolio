@@ -4,6 +4,7 @@ import Contact from './pages/Contact'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import image from './assets/images/portfolio.png'
+import Home from './pages/Home'
 import {
   Collapse,
   Navbar,
@@ -34,7 +35,10 @@ const App = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
             <NavItem>
-                <NavLink><Link className="link" to="/">About</Link></NavLink>
+                <NavLink><Link className="link" to="/">Home</Link></NavLink>
+              </NavItem>
+            <NavItem>
+                <NavLink><Link className="link" to="/about">About</Link></NavLink>
               </NavItem>
               <NavItem>
                 <NavLink><Link className="link" to="/portfolio">Portfolio</Link></NavLink>
@@ -45,12 +49,13 @@ const App = () => {
             </Nav>
           </Collapse>
         </Navbar>
-        <img src={image} class="center" width="100%"></img>
         <Switch>
-          <Route exact path="/" component={About} />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/portfolio" component={Portfolio} />
         </Switch>
+
       </div>
 
       <hr></hr>
