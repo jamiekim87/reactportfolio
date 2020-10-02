@@ -2,6 +2,8 @@ import React from 'react'
 import { Jumbotron, Button } from 'reactstrap';
 import Background from '../../assets/images/bg.png';
 import image from '../../assets/images/img1.png';
+import { Container, Row, Col } from 'reactstrap';
+
 
 
 const About = (props) => {
@@ -10,6 +12,7 @@ const About = (props) => {
       <div>
       <div className="p-3 bg-info my-2 rounded">
       </div>
+      <Container>
         <Jumbotron>
           <img src={Background} />
           <img src={image} width="50%" width="260" height="265" />
@@ -49,6 +52,7 @@ const About = (props) => {
         >LinkedIn</Button>
           </p>
         </Jumbotron>
+        </Container>
       </div>
     </>
 

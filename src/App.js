@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Contact from './pages/Contact'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
+import image from './assets/images/portfolio.png'
 import {
   Collapse,
   Navbar,
@@ -44,6 +45,7 @@ const App = () => {
             </Nav>
           </Collapse>
         </Navbar>
+        <img src={image} class="center" width="100%"></img>
         <Switch>
           <Route exact path="/" component={About} />
           <Route path="/contact" component={Contact} />
