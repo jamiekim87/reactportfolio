@@ -47,7 +47,6 @@ const App = () => {
                 <NavLink><Link className="link" to="/contact">Contact</Link></NavLink>
               </NavItem>
             </Nav>
-            <NavbarText>Simple Text</NavbarText>
           </Collapse>
         </Navbar>
         <Switch>

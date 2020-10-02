@@ -11,9 +11,9 @@ const About = (props) => {
       <div>
       <div className="p-3 bg-info my-2 rounded">
       </div>
-      <br></br>
+      {/* <br></br>
       <h1>About</h1>
-      <hr></hr>
+      <hr></hr> */}
 
       <Media>
       <Media left href="#">
