@@ -14,6 +14,7 @@ const About = (props) => {
       {/* <br></br>
       <h1>About</h1>
       <hr></hr> */}
+    
 
       <Media>
       <Media left href="#">
