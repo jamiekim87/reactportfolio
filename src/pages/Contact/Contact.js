@@ -13,10 +13,13 @@ import {
 
 const Contact = () => {
   return (
+    <>
     <Container>
+      <br></br>
+      <h1>Contact</h1>
+      <hr></hr>
       <Row>
-          
-        <Col xs="8">
+        <Col xs="">
           <Form>
             <FormGroup>
               <Label for="name">Name</Label>
@@ -35,7 +38,7 @@ const Contact = () => {
         </Col>
       </Row>
     </Container>
-
+    </>
   )
 }
 

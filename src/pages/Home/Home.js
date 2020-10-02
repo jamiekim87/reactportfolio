@@ -9,6 +9,7 @@ const Home = (props) => {
   return (
     <div>
     <Container>
+      <hr></hr>
     <Card>
       <CardImg top width="70%" src={image} alt="Card image cap" />
       <CardBody class="center">

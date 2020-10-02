@@ -4,8 +4,6 @@ import Background from '../../assets/images/bg.png';
 import image from '../../assets/images/img1.png';
 import { Container, Row, Col } from 'reactstrap';
 
-
-
 const About = (props) => {
   return (
     <>
@@ -13,11 +11,14 @@ const About = (props) => {
       <div className="p-3 bg-info my-2 rounded">
       </div>
       <Container>
+      <br></br>
+      <h1>About</h1>
+      <hr></hr>
         <Jumbotron>
           <img src={Background} />
           <img src={image} width="50%" width="260" height="265" />
           <h1 className="display-3">This is  Jamie's page</h1>
-          <p className="lead">I am a Full Stack Web Developer graduating from UCI Coding Bootcamp of 2020. Entering college about eight years ago, my parents told me that this is the time of your life where you decide
+          <p className="lead">Entering college about eight years ago, my parents told me that this is the time of your life where you decide
             who you will become. Quite a scary thought for someone that liked little bits and pieces of each subject I
             learned in school. I decided to major in Chemistry, something I did moderately well in high school and could
             lead to the path of becoming a pharmacist, the phrase a lot of my peers around me mentioned more so because of

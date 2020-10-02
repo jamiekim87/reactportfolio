@@ -47,6 +47,7 @@ const App = () => {
                 <NavLink><Link className="link" to="/contact">Contact</Link></NavLink>
               </NavItem>
             </Nav>
+            <NavbarText>Simple Text</NavbarText>
           </Collapse>
         </Navbar>
         <Switch>
@@ -54,19 +55,15 @@ const App = () => {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/portfolio" component={Portfolio} />
-        </Switch>
-
+        </Switch>  
       </div>
 
       <hr></hr>
-
-      <footer class="footer">
-        <div className="col-sm center">
-          <p>
-            &copy;{new Date().getFullYear()} Jamie Inc. | All rights reserved | Terms of service | Privacy
+      <div class="card-footer text-center text-muted">
+        <p>
+          &copy;{new Date().getFullYear()} Jamie Inc. | All rights reserved | Terms of service | Privacy
           </p>
-        </div>
-      </footer>
+      </div>
 
     </Router>
 

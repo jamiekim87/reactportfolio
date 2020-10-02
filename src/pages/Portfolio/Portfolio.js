@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
+  CardTitle, CardSubtitle, Container, Button
 } from 'reactstrap';
 import Pokemon from '../../assets/images/pokemon3.jpg'
 import lifetrack from '../../assets/images/lifetrack.jpg'
@@ -14,8 +14,12 @@ import './Portfolio.css'
 const Portfolio = (props) => {
   return (
     <div>
+      <Container>
+        <br></br>
+       <h1>Portfolio</h1>
+       <hr></hr>
       <Card>
-        <CardImg top width="100%" src={Pokemon} alt="pokemon pic" width="460" heignt="345"/>
+        <CardImg top width="100%" src={Pokemon} alt="pokemon pic" width="300" heignt="345"/>
         <CardBody>
           <CardTitle>Pokemon</CardTitle>
           <CardSubtitle>Project 1</CardSubtitle>
@@ -75,9 +79,7 @@ const Portfolio = (props) => {
           <a href="https://github.com/jamiekim87/employee_directory.git" class="btn btn-primary">GitHub</a>
         </CardBody>
       </Card>
-      
-    
-      
+      </Container>
     </div>
   
  
