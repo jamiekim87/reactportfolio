@@ -31,7 +31,7 @@ const About = (props) => {
             their parents then because of themselves. Nevertheless, my experience in college life led me to find genuine
             interest in Computer as well as Web Development. I have posted my projects and several courseworks on my portfolio
             page. Please contact me for further questions. Thank you!      </Media>
-    </Media>
+       </Media>
       
           {/* <img src={Background} />
           <img src={image} width="50%" width="260" height="265" />
