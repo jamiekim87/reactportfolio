@@ -34,10 +34,10 @@ const App = () => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
-            <NavItem>
+              <NavItem>
                 <NavLink><Link className="link" to="/">Home</Link></NavLink>
               </NavItem>
-            <NavItem>
+              <NavItem>
                 <NavLink><Link className="link" to="/about">About</Link></NavLink>
               </NavItem>
               <NavItem>
@@ -55,11 +55,10 @@ const App = () => {
           <Route path="/contact" component={Contact} />
           <Route path="/portfolio" component={Portfolio} />
         </Switch>
-        
+
       </div>
 
       <hr></hr>
-
 
       <footer class="footer">
         <div className="col-sm center">
