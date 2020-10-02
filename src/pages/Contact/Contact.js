@@ -15,11 +15,11 @@ const Contact = () => {
   return (
     <>
     <Container>
-      <br></br>
+      {/* <br></br>
       <h1>Contact</h1>
-      <hr></hr>
+      <hr></hr> */}
       <Row>
-        <Col xs="">
+        <Col xs="8">
           <Form>
             <FormGroup>
               <Label for="name">Name</Label>
