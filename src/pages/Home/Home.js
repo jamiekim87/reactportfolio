@@ -9,7 +9,7 @@ const Home = (props) => {
   return (
     <div>
     <Card>
-      <CardImg top width="100%" src={image} alt="Card image cap" />
+      <CardImg top width="70%" src={image} alt="Card image cap" />
       <CardBody class="center">
         <CardTitle>Jamie's React Portfolio</CardTitle>
         <CardText>Welcome to my portfolio page. I am a Full Stack Web Developer graduating from UCI Coding Bootcamp of 2020.</CardText>

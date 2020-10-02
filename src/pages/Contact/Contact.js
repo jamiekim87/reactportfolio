@@ -16,7 +16,7 @@ const Contact = () => {
     <Container>
       <Row>
           
-        <Col xs="7">
+        <Col xs="8">
           <Form>
             <FormGroup>
               <Label for="name">Name</Label>
