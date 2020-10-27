@@ -1,8 +1,7 @@
 # React Portfolio
 
 Deployed page: https://jamiekim87.github.io/reactportfolio/
-<br>
-Githhub Repo: https://github.com/jamiekim87/reactportfolio.git
+
 
 ![Screen Shot 2020-10-02 at 2 43 05 PM](https://user-images.githubusercontent.com/64169844/94972897-35a1e880-04bf-11eb-8628-e03a744d6b13.png)
 
